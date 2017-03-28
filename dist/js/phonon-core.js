@@ -1136,7 +1136,7 @@
     root.platform = platform;
 
     // Define as an anonymous module so platform can be aliased through path mapping.
-    define(function() {
+    define('platform', function() {
       return platform;
     });
   }
